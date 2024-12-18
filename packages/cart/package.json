@@ -1,0 +1,17 @@
+{
+  "name": "@css-nx/cart",
+  "version": "0.0.1",
+  "dependencies": {
+    "tslib": "^2.3.0",
+    "@css-nx/utils": "*"
+  },
+  "type": "commonjs",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "private": true,
+  "nx": {
+    "sourceRoot": "packages/cart/src",
+    "projectType": "library",
+    "name": "@css-nx/cart"
+  }
+}
