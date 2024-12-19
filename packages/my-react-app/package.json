@@ -1,0 +1,14 @@
+{
+  "name": "@css-nx/my-react-app",
+  "version": "0.0.1",
+  "private": true,
+  "nx": {
+    "name": "@css-nx/my-react-app",
+    "projectType": "application",
+    "sourceRoot": "packages/my-react-app/src"
+  },
+  "dependencies": {
+    "@css-nx/cart": "workspace:*",
+    "@css-nx/utils": "workspace:*"
+  }
+}
