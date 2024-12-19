@@ -3,12 +3,14 @@
 import NxWelcome from './nx-welcome';
 
 import { cart } from '@css-nx/cart';
+import { MyReactLib } from '@css-nx/my-react-lib';
 import { Link, Route, Routes } from 'react-router-dom';
 
 export function App() {
   console.log(cart());
   return (
     <div>
+      <MyReactLib />
       <NxWelcome title="my-react-app" />
 
       {/* START: routes */}

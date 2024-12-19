@@ -11,6 +11,9 @@
     },
     {
       "path": "./packages/my-react-app"
+    },
+    {
+      "path": "./packages/my-react-lib"
     }
   ]
 }

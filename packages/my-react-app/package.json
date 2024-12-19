@@ -7,8 +7,10 @@
     "projectType": "application",
     "sourceRoot": "packages/my-react-app/src"
   },
+  "type": "module",
   "dependencies": {
     "@css-nx/cart": "workspace:*",
+    "@css-nx/my-react-lib": "workspace:*",
     "@css-nx/utils": "workspace:*"
   }
 }

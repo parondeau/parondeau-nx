@@ -5,9 +5,9 @@
     "tslib": "^2.3.0",
     "@css-nx/utils": "workspace:*"
   },
-  "type": "commonjs",
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
+  "type": "module",
   "private": true,
   "nx": {
     "sourceRoot": "packages/cart/src",
